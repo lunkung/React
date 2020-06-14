@@ -1,21 +1,8 @@
-/**
- * Created by lunk on 2020/6/14.
- */
+import { combineReducers } from "redux";
+import searchCriteriaReducer from "../main/member/searchCriteria/store/reducer";
 
-const defaultState = {
-    focused: false,
-};
+const reducer = combineReducers({
+    searchCriteria:searchCriteriaReducer
+})
 
-export default(state = defaultState, action) => {
-    if(action.type === "handleBtnFocuse"){
-        return {
-            focused: true
-        }
-    }
-    if(action.type === "handleBtnBlur"){
-        return {
-            focused: false
-        }
-    }
-    return state;
-}
+export default reducer;
