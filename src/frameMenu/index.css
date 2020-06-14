@@ -1,0 +1,96 @@
+/*
+ 这里是左侧的导航栏样式
+ */
+.frameMenu{
+    width: 250px;
+    background-color: #1c1c1c;
+    float: left;
+    height: 1297px;
+    padding-top: 54px;
+}
+.frameMenu .logo{
+    width: 100%;
+    height: 110px;
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #2c3441;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.frameMenu .logo img {
+    width: 70px;
+    height: 70px;
+    background-color: #383838;
+    border-radius: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.frameMenu .logo .logoText {
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+    color: #bdc2c8;
+}
+.frameMenu .logo .logoText h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10.5px;
+}
+.frameMenu .logo .logoText p {
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: Uppercase;
+    color: #bdc2c8;
+}
+.frameMenu .menu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 1187px;
+}
+.frameMenu .menu .mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: ltr;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container{
+    width: auto;
+    height: auto;
+    overflow: visible !important;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul li{
+    border-bottom: 1px solid #2c3441;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul li a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #c2c2c2;
+    padding: 0 10px 0 20px;
+    border-left: 0px solid #15A848;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul li a i{
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,33 @@
+/*
+这里是header的样式
+ */
+.header{
+    height: 54px;
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #000;
+}
+.header .center{
+    width: 100%;
+    padding-top: 0;
+}
+.header .center .title {
+    padding-top: 12px;
+}
+.header .center .title a{
+
+}
+.header .center ul li {
+    display: inline;
+    float: left;
+    position: relative;
+}
+.header .center .logoTop {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.header .center .logoTop .logoTop a {
+    font-family: 微软雅黑;
+}
