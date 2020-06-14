@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './index.css';
 
 import Header from './header';
-import FrameMenu from './frameMenu';
+import Navigation from './navigation';
 import Main from './main';
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
                 {
                     //左侧导航栏
                 }
-                <FrameMenu/>
+                <Navigation/>
 
                 {
                     //右侧详细内容

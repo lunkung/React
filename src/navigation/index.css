@@ -1,0 +1,10 @@
+/*
+ 这里是左侧的导航栏样式
+ */
+.frameMenu{
+    width: 15%;
+    background-color: #1c1c1c;
+    float: left;
+    height: 1297px;
+    padding-top: 54px;
+}

@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import { connect } from "react-redux";
+import { actionCreators } from  "./store"
 
 class LayuiFormItem extends Component {
     render() {
@@ -30,17 +31,11 @@ const mapStateToProps = (state) => {
 
 const mapDispathToProps =(dispatch) =>{
     return {
-        handleBtnFocuse()   {
-            const action = {
-                type: "handleBtnFocuse"
-            };
-            dispatch(action);
+        handleBtnFocuse(){
+            dispatch(actionCreators.handleBtnFocuse());
         },
         handleBtnBlur(){
-            const action = {
-                type: "handleBtnBlur"
-            };
-            dispatch(action);
+            dispatch(actionCreators.handleBtnBlur());
         }
     }
 }

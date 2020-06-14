@@ -1,0 +1,42 @@
+.frameMenu .logo{
+    width: 100%;
+    height: 110px;
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #2c3441;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.frameMenu .logo img {
+    width: 70px;
+    height: 70px;
+    background-color: #383838;
+    border-radius: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.frameMenu .logo .logoText {
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+    color: #bdc2c8;
+}
+.frameMenu .logo .logoText h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10.5px;
+}
+.frameMenu .logo .logoText p {
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: Uppercase;
+    color: #bdc2c8;
+}

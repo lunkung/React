@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
-import searchCriteriaReducer from "../main/member/searchCriteria/store/reducer";
+import { searchCriteria } from "../main/member/searchCriteria/store";
+import { menuBar } from "../navigation/menuBar/store";
 
 const reducer = combineReducers({
-    searchCriteria:searchCriteriaReducer
+    searchCriteria: searchCriteria,
+    menuBar: menuBar
 })
 
 export default reducer;
