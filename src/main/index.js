@@ -7,9 +7,10 @@ import './index.css';
 
 import FrameTop from './common/frameTop';
 import Title from './common/title';
-import LayuiFormItem from './member/layui-form-item';
-import LayuiTable from './member/layui-table';
-import LayuiPage from './member/layui-laypage';
+
+import LayuiFormItem from './member/searchCriteria/layui-form-item';
+import LayuiTable from './member/table/layui-table';
+import LayuiPage from './member/pagination/layui-laypage';
 
 class Main extends Component {
     render() {
