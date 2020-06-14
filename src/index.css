@@ -114,6 +114,21 @@ input {
     border-radius: 2px;
     cursor: pointer;
 }
+.layui-btn-focused{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #00b6a9;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
 .layui-btn, .layui-edge, .layui-inline, img {
     vertical-align: middle;
 }
