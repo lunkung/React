@@ -4,6 +4,13 @@
 import React, { Component } from 'react';
 
 class LayuiFormItem extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            focused: false,
+        };
+    }
+
     render() {
         return (
             <div className="layui-form-item">
