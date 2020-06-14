@@ -7,3 +7,87 @@
     float: left;
     padding-top: 54px;
 }
+.main .frameTop{
+    width: 100%;
+    height: 60px;
+    background-color: #FFF;
+    position: relative;
+}
+.main .frameTop .jt{
+    position: absolute;
+    top: 24.5px;
+    left: -6px;
+}
+.main .frameTop .topMenu{
+    height: 60px;
+    float: right;
+}
+.main .frameTop .topMenu ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+.main .frameTop .topMenu ul li{
+    float: left;
+    border-left: 1px solid #f4f5f6;
+}
+.main .frameTop .topMenu ul li a{
+     padding: 0 15px;
+     height: 60px;
+     line-height: 60px;
+     display: block;
+     color: #999;
+}
+.main .frameTop .topMenu ul li a i{
+    margin-right: 5px;
+    font-size: 14px;
+    color: #999;
+}
+.main .frameMain{
+    height: 1237px;
+    width: 100%;
+    border-left: 2px solid #1AA094;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.main .frameMain .con{
+    width: 100%;
+    height: 1197px;
+}
+.main .frameMain .con .cBody{
+    padding: 10px;
+    display: block;
+    overflow-y: auto;
+    position: relative;
+    height: 1177px;
+}
+.main .frameMain .con .cBody .mCustomScrollBox{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: ltr;
+}
+.main .frameMain .con .cBody .mCSB_container{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    margin-right: 0;
+}
+
+.main .frameMain .con .cBody .mCSB_container .layui-form-item{
+    margin-bottom: 15px;
+    clear: both;
+    *zoom: 1;
+}
+.main .frameMain .con .cBody .mCSB_container .layui-form-item .layui-input-inline{
+    float: left;
+    width: 190px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main .frameMain .con .cBody .mCSB_container .layui-form-item .layui-input-inline .layui-input{
+
+}

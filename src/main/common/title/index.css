@@ -1,0 +1,17 @@
+.main .frameMain .title{
+    width: 100%;
+    height: 40px;
+    background-color: #eee;
+}
+.main .frameMain .title span{
+    display: inline-block;
+    padding: 0 15px;
+    height: 39px;
+    line-height: 39px;
+    margin-top: 1px;
+    background-color: #FFF;
+}
+.main .frameMain .title span i{
+    margin-right: 10px;
+    font-size: 14px;
+}
