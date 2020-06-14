@@ -1,13 +1,175 @@
+/*
+这里是全局html标签的样式
+ */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "微软雅黑";
+    font-weight: 300;
+    color: #333;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+/*
+这里是header的样式
+ */
+.header{
+    height: 54px;
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #000;
+}
+.header .center{
+    width: 100%;
+    padding-top: 0;
+}
+.header .center .title {
+    padding-top: 12px;
+}
+.header .center .title a{
+
+ }
+.header .center ul li {
+    display: inline;
+    float: left;
+    position: relative;
+}
+.header .center .logoTop {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.header .center .logoTop .logoTop a {
+    font-family: 微软雅黑;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*
+ 这里是左侧的导航栏样式
+ */
+.frameMenu{
+    width: 250px;
+    background-color: #1c1c1c;
+    float: left;
+    height: 1297px;
+    padding-top: 54px;
 }
+.frameMenu .logo{
+    width: 100%;
+    height: 110px;
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #2c3441;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.frameMenu .logo img {
+    width: 70px;
+    height: 70px;
+    background-color: #383838;
+    border-radius: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.frameMenu .logo .logoText {
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+    color: #bdc2c8;
+}
+.frameMenu .logo .logoText h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10.5px;
+}
+.frameMenu .logo .logoText p {
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: Uppercase;
+    color: #bdc2c8;
+}
+.frameMenu .menu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 1187px;
+}
+.frameMenu .menu .mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: ltr;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container{
+    width: auto;
+    height: auto;
+    overflow: visible !important;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul li{
+border-bottom: 1px solid #2c3441;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul li a{
+display: block;
+width: 100%;
+height: 50px;
+line-height: 50px;
+color: #c2c2c2;
+padding: 0 10px 0 20px;
+border-left: 0px solid #15A848;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.frameMenu .menu .mCustomScrollBox .mCSB_container ul li a i{
+font-family: "iconfont" !important;
+font-size: 16px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+/*
+这里是右侧详细内容
+*/
+.main{
+    width: 1160px;
+    height: 1297px;
+    float: left;
+    padding-top: 54px;
+}
+
+
