@@ -69,7 +69,7 @@ class MenuBar extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        focused: state.get("menuBar").get("focused")
+        focused: state.getIn(["menuBar","focused"])
     }
 }
 

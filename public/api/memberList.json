@@ -1,0 +1,23 @@
+{
+
+   "success": true,
+    "data": [
+        {
+            "name": "张三",
+            "phoneNumber": "18700947046",
+            "consumerItem": "普通剪发",
+            "consumerTime": "2020-06-14 14:35",
+            "remainingTimes": "1",
+            "remainingAmount": "125"
+        },
+        {
+            "name": "李四",
+            "phoneNumber": "18700947046",
+            "consumerItem": "普通剪发",
+            "consumerTime": "2020-06-14 14:35",
+            "remainingTimes": "1",
+            "remainingAmount": "125"
+        }
+    ]
+
+}

@@ -3,6 +3,9 @@
  */
 import React, { Component } from 'react';
 
+import { connect } from "react-redux";
+import { actionCreators } from "./store"
+
 class LayuiTable extends Component {
     render() {
         return (
@@ -19,22 +22,44 @@ class LayuiTable extends Component {
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>张三</td>
-                    <td>18700947045</td>
-                    <td>普通剪发</td>
-                    <td>2020-06-14 14:35</td>
-                    <td>1</td>
-                    <td>150</td>
-                    <td>
-                        <button className="layui-btn layui-btn-xs">修改</button>
-                        <button className="layui-btn layui-btn-xs">基本信息</button>
-                    </td>
-                </tr>
+                    {
+                        this.props.list.map((item,index) => {
+                            return <tr key={index}>
+                                <td>{item.get("name")}</td>
+                                <td>{item.get("phoneNumber")}</td>
+                                <td>{item.get("consumerItem")}</td>
+                                <td>{item.get("consumerTime")}</td>
+                                <td>{item.get("remainingTimes")}</td>
+                                <td>{item.get("remainingAmount")}</td>
+                                <td>
+                                    <button className="layui-btn layui-btn-xs">修改</button>
+                                    <button className="layui-btn layui-btn-xs">基本信息</button>
+                                </td>
+                            </tr>
+                        })
+                    }
                 </tbody>
             </table>
         );
     }
+
+    componentDidMount(){
+        this.props.handleBtnClick();
+    }
 }
 
-export default LayuiTable;
+const mapStateToProps = (state) => {
+    return {
+        list: state.getIn(["member","list"])
+    }
+}
+
+const mapDispathToProps =(dispatch) =>{
+    return {
+        handleBtnClick(){
+            dispatch(actionCreators.getMemberList());
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispathToProps)(LayuiTable);
