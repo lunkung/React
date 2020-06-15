@@ -25,7 +25,7 @@ class LayuiFormItem extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        focused: state.searchCriteria.focused
+        focused: state.get("searchCriteria").get("focused")
     }
 }
 

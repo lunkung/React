@@ -40,12 +40,13 @@
     width: 100%;
     height: 50px;
     line-height: 50px;
-    color: #eaeaea;
+    color: #c2c2c2;
     padding: 0 10px 0 20px;
     border-left: 0px solid #15A848;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    border-width: 7px;
 }
 .frameMenu .menu .mCustomScrollBox .mCSB_container ul li a i{
     font-family: "iconfont" !important;
